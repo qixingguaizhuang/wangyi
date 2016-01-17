@@ -8,6 +8,7 @@
 
 #import "cellForImage.h"
 #import "modelForNETEASE.h"
+#import "UIImageView+WebCache.h"
 
 @interface cellForImage ()
 @property (nonatomic, retain) UIImageView *imageForHead;
@@ -53,11 +54,10 @@
 
 
 
-- (void)pastModelForHeadImages{
+- (void)pastModelForHeadImages:(modelForNETEASE *) model{
 
-
-    
-
+    [self.imageForHead sd_setImageWithURL:[NSURL URLWithString:model.imgsrc] placeholderImage:[UIImage imageNamed:@"photo"]];
+    self.tittleForImage.text = model.title;
 }
 
 
