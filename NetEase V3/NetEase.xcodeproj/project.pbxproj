@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49FDADB81C4B82D700251D96 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 49FDADB71C4B82D700251D96 /* main.m */; };
+		49FDADBB1C4B82D700251D96 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 49FDADBA1C4B82D700251D96 /* AppDelegate.m */; };
+		49FDADBE1C4B82D700251D96 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49FDADBD1C4B82D700251D96 /* ViewController.m */; };
+		49FDADC11C4B82D700251D96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49FDADBF1C4B82D700251D96 /* Main.storyboard */; };
+		49FDADC31C4B82D700251D96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49FDADC21C4B82D700251D96 /* Assets.xcassets */; };
+		49FDADC61C4B82D700251D96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49FDADC41C4B82D700251D96 /* LaunchScreen.storyboard */; };
+		49FDADD11C4B82D700251D96 /* NetEaseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49FDADD01C4B82D700251D96 /* NetEaseTests.m */; };
+		49FDADDC1C4B82D700251D96 /* NetEaseUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49FDADDB1C4B82D700251D96 /* NetEaseUITests.m */; };
+		49FDADEA1C4B83D800251D96 /* baobiaoxinwen.png in Resources */ = {isa = PBXBuildFile; fileRef = 49FDADE91C4B83D800251D96 /* baobiaoxinwen.png */; };
+		49FDADEE1C4B83E100251D96 /* iconfont-icon03.png in Resources */ = {isa = PBXBuildFile; fileRef = 49FDADEB1C4B83E100251D96 /* iconfont-icon03.png */; };
+		49FDADEF1C4B83E100251D96 /* sousuo.png in Resources */ = {isa = PBXBuildFile; fileRef = 49FDADEC1C4B83E100251D96 /* sousuo.png */; };
+		49FDADF01C4B83E100251D96 /* wo.png in Resources */ = {isa = PBXBuildFile; fileRef = 49FDADED1C4B83E100251D96 /* wo.png */; };
+		49FDADF21C4B83E700251D96 /* yuyinshiting.png in Resources */ = {isa = PBXBuildFile; fileRef = 49FDADF11C4B83E700251D96 /* yuyinshiting.png */; };
+		49FDADF41C4B83F100251D96 /* yuedu.png in Resources */ = {isa = PBXBuildFile; fileRef = 49FDADF31C4B83F100251D96 /* yuedu.png */; };
+		49FDADF61C4BABC400251D96 /* photo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 49FDADF51C4BABC400251D96 /* photo.jpg */; };
+		49FDADFA1C4BAE7500251D96 /* cellForImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 49FDADF91C4BAE7500251D96 /* cellForImage.m */; };
+		49FDADFE1C4BB19300251D96 /* modelForNETEASE.m in Sources */ = {isa = PBXBuildFile; fileRef = 49FDADFD1C4BB19300251D96 /* modelForNETEASE.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		49FDADCD1C4B82D700251D96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49FDADAB1C4B82D700251D96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49FDADB21C4B82D700251D96;
+			remoteInfo = NetEase;
+		};
+		49FDADD81C4B82D700251D96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49FDADAB1C4B82D700251D96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49FDADB21C4B82D700251D96;
+			remoteInfo = NetEase;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		49FDADB31C4B82D700251D96 /* NetEase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetEase.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		49FDADB71C4B82D700251D96 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		49FDADB91C4B82D700251D96 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		49FDADBA1C4B82D700251D96 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		49FDADBC1C4B82D700251D96 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		49FDADBD1C4B82D700251D96 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		49FDADC01C4B82D700251D96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		49FDADC21C4B82D700251D96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		49FDADC51C4B82D700251D96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		49FDADC71C4B82D700251D96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49FDADCC1C4B82D700251D96 /* NetEaseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetEaseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		49FDADD01C4B82D700251D96 /* NetEaseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetEaseTests.m; sourceTree = "<group>"; };
+		49FDADD21C4B82D700251D96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49FDADD71C4B82D700251D96 /* NetEaseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetEaseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		49FDADDB1C4B82D700251D96 /* NetEaseUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetEaseUITests.m; sourceTree = "<group>"; };
+		49FDADDD1C4B82D700251D96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49FDADE91C4B83D800251D96 /* baobiaoxinwen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = baobiaoxinwen.png; sourceTree = "<group>"; };
+		49FDADEB1C4B83E100251D96 /* iconfont-icon03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-icon03.png"; sourceTree = "<group>"; };
+		49FDADEC1C4B83E100251D96 /* sousuo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sousuo.png; sourceTree = "<group>"; };
+		49FDADED1C4B83E100251D96 /* wo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wo.png; sourceTree = "<group>"; };
+		49FDADF11C4B83E700251D96 /* yuyinshiting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yuyinshiting.png; sourceTree = "<group>"; };
+		49FDADF31C4B83F100251D96 /* yuedu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yuedu.png; sourceTree = "<group>"; };
+		49FDADF51C4BABC400251D96 /* photo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo.jpg; sourceTree = "<group>"; };
+		49FDADF81C4BAE7500251D96 /* cellForImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cellForImage.h; sourceTree = "<group>"; };
+		49FDADF91C4BAE7500251D96 /* cellForImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cellForImage.m; sourceTree = "<group>"; };
+		49FDADFC1C4BB19300251D96 /* modelForNETEASE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = modelForNETEASE.h; sourceTree = "<group>"; };
+		49FDADFD1C4BB19300251D96 /* modelForNETEASE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = modelForNETEASE.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49FDADB01C4B82D700251D96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49FDADC91C4B82D700251D96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49FDADD41C4B82D700251D96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49FDADAA1C4B82D700251D96 = {
+			isa = PBXGroup;
+			children = (
+				49FDADB51C4B82D700251D96 /* NetEase */,
+				49FDADCF1C4B82D700251D96 /* NetEaseTests */,
+				49FDADDA1C4B82D700251D96 /* NetEaseUITests */,
+				49FDADB41C4B82D700251D96 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		49FDADB41C4B82D700251D96 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49FDADB31C4B82D700251D96 /* NetEase.app */,
+				49FDADCC1C4B82D700251D96 /* NetEaseTests.xctest */,
+				49FDADD71C4B82D700251D96 /* NetEaseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49FDADB51C4B82D700251D96 /* NetEase */ = {
+			isa = PBXGroup;
+			children = (
+				49FDADB91C4B82D700251D96 /* AppDelegate.h */,
+				49FDADBA1C4B82D700251D96 /* AppDelegate.m */,
+				49FDADF51C4BABC400251D96 /* photo.jpg */,
+				49FDADF31C4B83F100251D96 /* yuedu.png */,
+				49FDADF11C4B83E700251D96 /* yuyinshiting.png */,
+				49FDADEB1C4B83E100251D96 /* iconfont-icon03.png */,
+				49FDADEC1C4B83E100251D96 /* sousuo.png */,
+				49FDADED1C4B83E100251D96 /* wo.png */,
+				49FDADE91C4B83D800251D96 /* baobiaoxinwen.png */,
+				49FDADFF1C4BB19700251D96 /* model */,
+				49FDADFB1C4BAE7E00251D96 /* ViewForImageCell */,
+				49FDADF71C4BAE4800251D96 /* controller */,
+				49FDADBF1C4B82D700251D96 /* Main.storyboard */,
+				49FDADC21C4B82D700251D96 /* Assets.xcassets */,
+				49FDADC41C4B82D700251D96 /* LaunchScreen.storyboard */,
+				49FDADC71C4B82D700251D96 /* Info.plist */,
+				49FDADB61C4B82D700251D96 /* Supporting Files */,
+			);
+			path = NetEase;
+			sourceTree = "<group>";
+		};
+		49FDADB61C4B82D700251D96 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				49FDADB71C4B82D700251D96 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		49FDADCF1C4B82D700251D96 /* NetEaseTests */ = {
+			isa = PBXGroup;
+			children = (
+				49FDADD01C4B82D700251D96 /* NetEaseTests.m */,
+				49FDADD21C4B82D700251D96 /* Info.plist */,
+			);
+			path = NetEaseTests;
+			sourceTree = "<group>";
+		};
+		49FDADDA1C4B82D700251D96 /* NetEaseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				49FDADDB1C4B82D700251D96 /* NetEaseUITests.m */,
+				49FDADDD1C4B82D700251D96 /* Info.plist */,
+			);
+			path = NetEaseUITests;
+			sourceTree = "<group>";
+		};
+		49FDADF71C4BAE4800251D96 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				49FDADBC1C4B82D700251D96 /* ViewController.h */,
+				49FDADBD1C4B82D700251D96 /* ViewController.m */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		49FDADFB1C4BAE7E00251D96 /* ViewForImageCell */ = {
+			isa = PBXGroup;
+			children = (
+				49FDADF81C4BAE7500251D96 /* cellForImage.h */,
+				49FDADF91C4BAE7500251D96 /* cellForImage.m */,
+			);
+			name = ViewForImageCell;
+			sourceTree = "<group>";
+		};
+		49FDADFF1C4BB19700251D96 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				49FDADFC1C4BB19300251D96 /* modelForNETEASE.h */,
+				49FDADFD1C4BB19300251D96 /* modelForNETEASE.m */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49FDADB21C4B82D700251D96 /* NetEase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49FDADE01C4B82D700251D96 /* Build configuration list for PBXNativeTarget "NetEase" */;
+			buildPhases = (
+				49FDADAF1C4B82D700251D96 /* Sources */,
+				49FDADB01C4B82D700251D96 /* Frameworks */,
+				49FDADB11C4B82D700251D96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NetEase;
+			productName = NetEase;
+			productReference = 49FDADB31C4B82D700251D96 /* NetEase.app */;
+			productType = "com.apple.product-type.application";
+		};
+		49FDADCB1C4B82D700251D96 /* NetEaseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49FDADE31C4B82D700251D96 /* Build configuration list for PBXNativeTarget "NetEaseTests" */;
+			buildPhases = (
+				49FDADC81C4B82D700251D96 /* Sources */,
+				49FDADC91C4B82D700251D96 /* Frameworks */,
+				49FDADCA1C4B82D700251D96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49FDADCE1C4B82D700251D96 /* PBXTargetDependency */,
+			);
+			name = NetEaseTests;
+			productName = NetEaseTests;
+			productReference = 49FDADCC1C4B82D700251D96 /* NetEaseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		49FDADD61C4B82D700251D96 /* NetEaseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49FDADE61C4B82D700251D96 /* Build configuration list for PBXNativeTarget "NetEaseUITests" */;
+			buildPhases = (
+				49FDADD31C4B82D700251D96 /* Sources */,
+				49FDADD41C4B82D700251D96 /* Frameworks */,
+				49FDADD51C4B82D700251D96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49FDADD91C4B82D700251D96 /* PBXTargetDependency */,
+			);
+			name = NetEaseUITests;
+			productName = NetEaseUITests;
+			productReference = 49FDADD71C4B82D700251D96 /* NetEaseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49FDADAB1C4B82D700251D96 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = dllo;
+				TargetAttributes = {
+					49FDADB21C4B82D700251D96 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					49FDADCB1C4B82D700251D96 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 49FDADB21C4B82D700251D96;
+					};
+					49FDADD61C4B82D700251D96 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 49FDADB21C4B82D700251D96;
+					};
+				};
+			};
+			buildConfigurationList = 49FDADAE1C4B82D700251D96 /* Build configuration list for PBXProject "NetEase" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 49FDADAA1C4B82D700251D96;
+			productRefGroup = 49FDADB41C4B82D700251D96 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49FDADB21C4B82D700251D96 /* NetEase */,
+				49FDADCB1C4B82D700251D96 /* NetEaseTests */,
+				49FDADD61C4B82D700251D96 /* NetEaseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49FDADB11C4B82D700251D96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49FDADEA1C4B83D800251D96 /* baobiaoxinwen.png in Resources */,
+				49FDADF01C4B83E100251D96 /* wo.png in Resources */,
+				49FDADF41C4B83F100251D96 /* yuedu.png in Resources */,
+				49FDADEF1C4B83E100251D96 /* sousuo.png in Resources */,
+				49FDADC61C4B82D700251D96 /* LaunchScreen.storyboard in Resources */,
+				49FDADC31C4B82D700251D96 /* Assets.xcassets in Resources */,
+				49FDADF21C4B83E700251D96 /* yuyinshiting.png in Resources */,
+				49FDADF61C4BABC400251D96 /* photo.jpg in Resources */,
+				49FDADC11C4B82D700251D96 /* Main.storyboard in Resources */,
+				49FDADEE1C4B83E100251D96 /* iconfont-icon03.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49FDADCA1C4B82D700251D96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49FDADD51C4B82D700251D96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49FDADAF1C4B82D700251D96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49FDADFE1C4BB19300251D96 /* modelForNETEASE.m in Sources */,
+				49FDADBE1C4B82D700251D96 /* ViewController.m in Sources */,
+				49FDADBB1C4B82D700251D96 /* AppDelegate.m in Sources */,
+				49FDADB81C4B82D700251D96 /* main.m in Sources */,
+				49FDADFA1C4BAE7500251D96 /* cellForImage.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49FDADC81C4B82D700251D96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49FDADD11C4B82D700251D96 /* NetEaseTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49FDADD31C4B82D700251D96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49FDADDC1C4B82D700251D96 /* NetEaseUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		49FDADCE1C4B82D700251D96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49FDADB21C4B82D700251D96 /* NetEase */;
+			targetProxy = 49FDADCD1C4B82D700251D96 /* PBXContainerItemProxy */;
+		};
+		49FDADD91C4B82D700251D96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49FDADB21C4B82D700251D96 /* NetEase */;
+			targetProxy = 49FDADD81C4B82D700251D96 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		49FDADBF1C4B82D700251D96 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49FDADC01C4B82D700251D96 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		49FDADC41C4B82D700251D96 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49FDADC51C4B82D700251D96 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		49FDADDE1C4B82D700251D96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		49FDADDF1C4B82D700251D96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49FDADE11C4B82D700251D96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NetEase/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lanou3g.NetEase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		49FDADE21C4B82D700251D96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NetEase/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lanou3g.NetEase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		49FDADE41C4B82D700251D96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NetEaseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lanou3g.NetEaseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NetEase.app/NetEase";
+			};
+			name = Debug;
+		};
+		49FDADE51C4B82D700251D96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NetEaseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lanou3g.NetEaseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NetEase.app/NetEase";
+			};
+			name = Release;
+		};
+		49FDADE71C4B82D700251D96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NetEaseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lanou3g.NetEaseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NetEase;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		49FDADE81C4B82D700251D96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NetEaseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lanou3g.NetEaseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NetEase;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49FDADAE1C4B82D700251D96 /* Build configuration list for PBXProject "NetEase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49FDADDE1C4B82D700251D96 /* Debug */,
+				49FDADDF1C4B82D700251D96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49FDADE01C4B82D700251D96 /* Build configuration list for PBXNativeTarget "NetEase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49FDADE11C4B82D700251D96 /* Debug */,
+				49FDADE21C4B82D700251D96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		49FDADE31C4B82D700251D96 /* Build configuration list for PBXNativeTarget "NetEaseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49FDADE41C4B82D700251D96 /* Debug */,
+				49FDADE51C4B82D700251D96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		49FDADE61C4B82D700251D96 /* Build configuration list for PBXNativeTarget "NetEaseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49FDADE71C4B82D700251D96 /* Debug */,
+				49FDADE81C4B82D700251D96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49FDADAB1C4B82D700251D96 /* Project object */;
+}

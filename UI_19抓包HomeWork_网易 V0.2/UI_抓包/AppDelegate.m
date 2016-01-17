@@ -59,26 +59,20 @@
 - (void)createViewController{
     
     /** 新闻页面 */
-
     ViewController *item1 = [[ViewController alloc]init];
     UINavigationController *first = [[UINavigationController alloc]initWithRootViewController:item1];
     
     /** 右侧搜索,时间 bar 颜色 */
     first.navigationBar.tintColor = [UIColor whiteColor];
-
     first.tabBarItem = [[UITabBarItem alloc]initWithTitle:@"新闻" image:[UIImage imageNamed:@"xinwen"] tag:100];
     
-
-    
     /** 阅读页面 */
-    
     VCForItem2 *item2 =[[VCForItem2 alloc]init];
     UINavigationController *second = [[UINavigationController alloc] initWithRootViewController:item2];
     item2.navigationItem.title = @"网易阅读";
     second.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"阅读" image:[UIImage imageNamed:@"yuedu"] tag:200];
     
     /** 试听页面 */
-    
     VCForItem3 *item3 = [[VCForItem3 alloc] init];
     UINavigationController *third = [[UINavigationController alloc]initWithRootViewController:item3];
     item3.navigationItem.title = @"试听";
@@ -86,7 +80,6 @@
     
     
     /** 话题页面 */
-    
     VCForItem4 *item4 = [[VCForItem4 alloc] init];
     UINavigationController *fourth = [[UINavigationController alloc] initWithRootViewController:item4];
     
@@ -94,16 +87,11 @@
     fourth.tabBarItem = [[UITabBarItem alloc]initWithTitle:@"话题" image:[UIImage imageNamed:@"huati"] tag:400];
     
     
-    
     /** 我 页面 */
-    
     VCForItem5 *item5 = [[VCForItem5 alloc] init];
     UINavigationController *fifth = [[UINavigationController alloc] initWithRootViewController:item5];
     item5.navigationItem.title = @"我";
     fifth.tabBarItem = [[UITabBarItem alloc]initWithTitle:@"我" image:[UIImage imageNamed:@"wo"] tag:500];
-    
-    
-    
 
     self.tbc.viewControllers = @[first,second,third,fourth,fifth];
 }

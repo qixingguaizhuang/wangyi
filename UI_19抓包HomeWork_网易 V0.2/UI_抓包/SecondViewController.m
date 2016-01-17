@@ -43,11 +43,32 @@
 
 
 - (void)createNavigation{
-    self.navigationItem.rightBarButtonItem =[[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"mark"] style:UIBarButtonItemStylePlain target:self action:nil];
+    self.navigationItem.rightBarButtonItem =[[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"mark"] style:UIBarButtonItemStylePlain target:self action:@selector(markAction:)];
 }
 
 
+- (void)markAction:(UIButton *)button{
+    
+    self.model = [[ModelOfPag1 alloc]init];
+    
+   // modelOfURL.url =
+    
+    /** 创建归档时所需要得 Data 对象 */
+    NSMutableData *data = [NSMutableData data];
+    
+    /** 归档类 */
+    NSKeyedArchiver *archiver = [[NSKeyedArchiver alloc] initForWritingWithMutableData:data];
+    
+    /** 开始归档 */
+    [archiver encodeObject:self.model forKey:@"url"];
+    
+    /** 归档结束 */
+    [archiver finishEncoding];
 
+
+
+
+}
 
 
 

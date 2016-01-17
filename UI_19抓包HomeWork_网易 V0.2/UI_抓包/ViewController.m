@@ -34,8 +34,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self handleData];
-    [self createNavigationItems];
     [self createTableView];
+    [self createNavigationItems];
 }
 
 
@@ -67,18 +67,17 @@
 
     
     self.arrOfheadImage = [NSMutableArray array];
+    
     for (NSDictionary *dicOfHeadImage in arr) {
+            NSMutableArray *array = [dicOfHeadImage objectForKey:@"ads"];
         
-        NSMutableArray *array = [dicOfHeadImage objectForKey:@"ads"];
         for (NSDictionary *dicData in array) {
-            
             [self.arrOfheadImage addObject:[dicData objectForKey:@"imgsrc"]];
         }
     }
     
     [self.photo passArrOfImages:self.arrOfheadImage];
-    
-    
+
     [self.tableView reloadData];
     
 }
@@ -88,34 +87,31 @@
 //导航栏控制
 
 - (void)createNavigationItems{
-    
 
     /** 右侧搜索,时间 */
     UIBarButtonItem *itemOfLeft = [[UIBarButtonItem alloc]initWithImage:[UIImage imageNamed:@"surcher"] style:UIBarButtonItemStylePlain target:self action:@selector(surcherAction:)];
     
     UIBarButtonItem *itemOfRight = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"time"] style:UIBarButtonItemStylePlain target:self action:@selector(timeAction:)];
-    self.navigationItem.rightBarButtonItems = @[ itemOfRight, itemOfLeft];
+    self.navigationItem.rightBarButtonItems = @[itemOfRight, itemOfLeft];
+    
    // self.navigationItem.title = @"網易新聞";
     
     self.titleOflabel = [[UILabel alloc] initWithFrame:CGRectMake(5, 44, 60, 20)];
-    
     self.titleOflabel.backgroundColor = [UIColor clearColor];
     self.titleOflabel.font = [UIFont boldSystemFontOfSize:20];
     //设置文本字体与大小
-   
     self.titleOflabel.textColor = [UIColor whiteColor];
     
-    
     //设置文本颜色 UITextAlignmentLeft 替代为 NSTextAlignmentLeft
-    
     self.titleOflabel.text = @"網易新聞";
     self.titleOflabel.textAlignment = NSTextAlignmentLeft;
+    
+   // button.contentHorizontalAlignment = UIControlContentHorizontalAlignmentLeft
+    //self.titleOflabel.contentHorizontalAlignment = UIControlContentHorizonAlignmentLeft
     
     //设置标题
     
     self.navigationItem.titleView = self.titleOflabel;
-    
-    
     
     /** UINavigationBar 背景颜色 */
     
@@ -125,18 +121,14 @@
     bar.barTintColor = [UIColor redColor];
     //文字颜色
     bar.tintColor = [UIColor whiteColor];
-       
-
-
-}
-- (void)surcherAction:(UIButton *)button{
     
+}
+
+- (void)surcherAction:(UIButton *)button{
     NSLog(@"搜索点击事件");
 }
 - (void)timeAction:(UIButton *)button{
-    
     NSLog(@"时间按钮点击事件");
-    
 }
 
 //tableView 创建
@@ -162,10 +154,7 @@
 - (void)createScrollViewOfHeadImages{
     
     self.photo = [[PhotoOfhead alloc] initWithFrame:CGRectMake(0,0,self.view.frame.size.width,240)];
-    
     self.tableView.tableHeaderView = self.photo;
-    
-   
 }
 
 
@@ -173,7 +162,6 @@
 /** tableView协议方法 */
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
-    
     return self.arr.count;
 }
 
@@ -206,9 +194,7 @@
     second.model = model;
     
     [self.navigationController pushViewController:second animated:YES];
-    
 
-    
 }
 
 

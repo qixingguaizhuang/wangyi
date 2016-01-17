@@ -12,11 +12,7 @@
 
 @interface PhotoOfhead : UIView
 
-
-
 - (instancetype)initWithFrame:(CGRect)frame;
-
 - (void)passArrOfImages:(NSArray *)images;
-
 
 @end
